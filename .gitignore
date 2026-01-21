@@ -1,0 +1,37 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# ---- Virtual Environment ----
+.venv/
+venv/
+env/
+
+# ---- VS Code ----
+.vscode/
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- ML / Data (important for your project) ----
+data/
+models/*.onnx
+models/*.pth
+models/*.pt
+models/*.pb
+models/*.tflite
+models/*.weights
+
+# If you want to keep empty folders tracked
+!data/.gitkeep
+!models/.gitkeep
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Secrets ----
+.env

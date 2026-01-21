@@ -1,0 +1,6 @@
+# Core libraries for image processing and AI
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Optional: Helpful for smoother webcam handling
+imutils>=0.5.4
